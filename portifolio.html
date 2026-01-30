@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aparna Lokhande | Portfolio</title>
+
+<style>
+/* ===== Base Styles ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    scroll-behavior: smooth;
+}
+
+/* ===== Navigation Bar ===== */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: #2c3e50;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #1abc9c;
+}
+
+/* ===== Header ===== */
+.header {
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 60px 20px 40px 20px;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.header img:hover {
+    transform: scale(1.1);
+}
+
+.header h1 {
+    margin: 10px 0 5px 0;
+    font-size: 28px;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+.header a {
+    color: #1abc9c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header a:hover {
+    color: #16a085;
+}
+
+/* ===== Sections ===== */
+.section {
+    background: white;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+}
+
+/* ===== Skills ===== */
+.skills span {
+    background: #3498db;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: background 0.3s, transform 0.3s;
+    cursor: default;
+}
+
+.skills span:hover {
+    background: #2980b9;
+    transform: scale(1.1);
+}
+
+/* ===== Projects ===== */
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* ===== Footer ===== */
+.footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 600px) {
+    .header img {
+        width: 120px;
+        height: 120px;
+    }
+    .section {
+        padding: 20px 15px;
+    }
+    .navbar a {
+        margin: 0 8px;
+        font-size: 14px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== Navigation Bar ===== -->
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#career">Career Objective</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#personal">Personal</a>
+</div>
+
+<!-- ===== Header ===== -->
+<div class="header" id="home">
+    <img src="profile.jpg" alt="Profile Photo">
+    <h1>Aparna Navanath Lokhande</h1>
+    <p>MCA Student | Aspiring Software Developer</p>
+    <p>📞 8149104253 | ✉️ aprnalokhande8@gmail.com</p>
+    <p>
+        <a href="https://linkedin.com/in/aprna-lokhande-902541349" target="_blank">
+        LinkedIn Profile</a>
+    </p>
+</div>
+
+<!-- ===== Career Objective ===== -->
+<div class="section" id="career">
+<h2>Career Objective</h2>
+<p>
+Motivated MCA student seeking an entry-level opportunity in the IT industry
+to apply technical knowledge, enhance professional skills, and contribute
+to organizational growth.
+</p>
+</div>
+
+<!-- ===== Academic Qualification ===== -->
+<div class="section" id="education">
+<h2>Academic Qualification</h2>
+<ul>
+<li>MCA (Pursuing) – SVERI’s College of Engineering</li>
+<li>BCA – Green Finger College of Computer Technology</li>
+<li>HSC – New English School, Bhalawani</li>
+<li>SSC – Shrimant Rao Kale Mahavidyalay</li>
+</ul>
+</div>
+
+<!-- ===== Technical Skills ===== -->
+<div class="section" id="skills">
+<h2>Technical Skills</h2>
+<div class="skills">
+<span>Java</span>
+<span>Python</span>
+<span>HTML</span>
+<span>MySQL</span>
+<span>DBMS</span>
+<span>Windows</span>
+<span>Linux</span>
+</div>
+</div>
+
+<!-- ===== Projects ===== -->
+<div class="section" id="projects">
+<h2>Projects</h2>
+<ul>
+<li><b>Hotel Management System</b> – Booking, billing & staff management</li>
+<li><b>Smart Mudra Identification System</b> – AI-based hand gesture recognition</li>
+</ul>
+</div>
+
+<!-- ===== Personal Details ===== -->
+<div class="section" id="personal">
+<h2>Personal Details</h2>
+<ul>
+<li>Date of Birth: 01 July 2004</li>
+<li>Nationality: Indian</li>
+<li>Languages: English, Hindi, Marathi</li>
+</ul>
+</div>
+
+<!-- ===== Footer ===== -->
+<div class="footer">
+© 2026 Aparna Lokhande | Portfolio Website
+</div>
+
+</body>
+</html>
